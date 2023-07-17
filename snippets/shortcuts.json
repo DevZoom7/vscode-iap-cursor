@@ -1,0 +1,375 @@
+{
+   "Cursor Left": {
+      "prefix": "iap-left",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i f}\",",
+         "\t\"command\": \"iap.cursorLeft\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor Right": {
+      "prefix": "iap-right",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i j}\",",
+         "\t\"command\": \"iap.cursorRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor UpLeft": {
+      "prefix": "iap-upLeft",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i r}\",",
+         "\t\"command\": \"iap.cursorUpLeft\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor UpRight": {
+      "prefix": "iap-upRight",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i u}\",",
+         "\t\"command\": \"iap.cursorUpRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor DownLeft": {
+      "prefix": "iap-downLeft",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i v}\",",
+         "\t\"command\": \"iap.cursorDownLeft\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor DownRight": {
+      "prefix": "iap-downRight",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i m}\",",
+         "\t\"command\": \"iap.cursorDownRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor PrevMove": {
+      "prefix": "iap-prevMove",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.cursorPrevMove\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor Left Select": {
+      "prefix": "iap-leftSelect",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+u f}\",",
+         "\t\"command\": \"iap.cursorLeftSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor Right Select": {
+      "prefix": "iap-rightSelect",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+u j}\",",
+         "\t\"command\": \"iap.cursorRightSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor UpLeft Select": {
+      "prefix": "iap-upLeftSelect",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+u r}\",",
+         "\t\"command\": \"iap.cursorUpLeftSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor UpRight Select": {
+      "prefix": "iap-upRightSelect",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+u u}\",",
+         "\t\"command\": \"iap.cursorUpRightSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor DownLeft Select": {
+      "prefix": "iap-downLeftSelect",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+u v}\",",
+         "\t\"command\": \"iap.cursorDownLeftSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor DownRight Select": {
+      "prefix": "iap-downRightSelect",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+u m}\",",
+         "\t\"command\": \"iap.cursorDownRightSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Cursor Line Select": {
+      "prefix": "iap-lineSelect",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.cursorLineSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Delete Line Text": {
+      "prefix": "iap-del-lineText",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:alt+delete}\",",
+         "\t\"command\": \"iap.deleteLineText\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Delete Line And Go Up Right": {
+      "prefix": "iap-del-upRight",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:shift+delete}\",",
+         "\t\"command\": \"iap.deleteLineAndGoUpRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Delete Line And Go Down Right": {
+      "prefix": "iap-del-downRight",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+shift+delete}\",",
+         "\t\"command\": \"iap.deleteLineAndGoDownRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Insert Comma": {
+      "prefix": "iap-insertComma",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i ,}\",",
+         "\t\"command\": \"iap.insertComma\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Insert Semicolon": {
+      "prefix": "iap-insertSemicolon",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i ;}\",",
+         "\t\"command\": \"iap.insertSemicolon\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Insert Comma And Line After": {
+      "prefix": "iap-insertCommaAndLineAfter",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+shift+,}\",",
+         "\t\"command\": \"iap.insertCommaAndLineAfter\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Insert Comma And Line Before": {
+      "prefix": "iap-insertCommaAndLineBefore",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.deleteLineAndGoDownRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Insert Semicolon And Line Before": {
+      "prefix": "iap-insertSemicolonAndLineBefore",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.insertSemicolonAndLineBefore\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "Insert Semicolon And Line After": {
+      "prefix": "iap-insertSemicolonAndLineAfter",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.insertSemicolonAndLineAfter\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ],
+      "description": "Command Snippet"
+   },
+   "All": {
+      "prefix": "iap-all",
+      "body": [
+         "{",
+         "\t\"key\": \"${1:ctrl+i f}\",",
+         "\t\"command\": \"iap.cursorLeft\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${2:ctrl+i j}\",",
+         "\t\"command\": \"iap.cursorRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${3:ctrl+i r}\",",
+         "\t\"command\": \"iap.cursorUpLeft\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${4:ctrl+i u}\",",
+         "\t\"command\": \"iap.cursorUpRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${5:ctrl+i v}\",",
+         "\t\"command\": \"iap.cursorDownLeft\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${6:ctrl+i m}\",",
+         "\t\"command\": \"iap.cursorDownRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${7:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.cursorPrevMove\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${8:ctrl+u f}\",",
+         "\t\"command\": \"iap.cursorLeftSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${9:ctrl+u j}\",",
+         "\t\"command\": \"iap.cursorRightSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${10:ctrl+u r}\",",
+         "\t\"command\": \"iap.cursorUpLeftSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${11:ctrl+u u}\",",
+         "\t\"command\": \"iap.cursorUpRightSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${12:ctrl+u v}\",",
+         "\t\"command\": \"iap.cursorDownLeftSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${13:ctrl+u m}\",",
+         "\t\"command\": \"iap.cursorDownRightSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${14:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.cursorLineSelect\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${15:alt+delete}\",",
+         "\t\"command\": \"iap.deleteLineText\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${16:shift+delete}\",",
+         "\t\"command\": \"iap.deleteLineAndGoUpRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${17:ctrl+shift+delete}\",",
+         "\t\"command\": \"iap.deleteLineAndGoDownRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${18:ctrl+i ,}\",",
+         "\t\"command\": \"iap.insertComma\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${19:ctrl+i ;}\",",
+         "\t\"command\": \"iap.insertSemicolon\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${20:ctrl+shift+,}\",",
+         "\t\"command\": \"iap.insertCommaAndLineAfter\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${21:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.deleteLineAndGoDownRight\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${22:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.insertSemicolonAndLineBefore\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},",
+         "{",
+         "\t\"key\": \"${23:ctrl+shift+i}\",",
+         "\t\"command\": \"iap.insertSemicolonAndLineAfter\",",
+         "\t\"when\": \"editorTextFocus\",",
+         "},"
+      ]
+   }
+}

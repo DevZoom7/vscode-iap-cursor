@@ -1,0 +1,190 @@
+{
+  "name": "iap-cursor",
+  "displayName": "IAP Cursor",
+  "publisher": "IAPHelper",
+  "description": "Extra cursor commands",
+  "icon": "./images/icon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "iap.cursorLeft",
+        "title": "Cursor Left",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorRight",
+        "title": "Cursor Right",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorUpLeft",
+        "title": "Cursor Up Left",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorUpRight",
+        "title": "Cursor Up Right",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorDownLeft",
+        "title": "Cursor Down Left",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorDownRight",
+        "title": "Cursor Down Right",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorPrevMove",
+        "title": "Cursor Previous Move",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorLeftSelect",
+        "title": "Left Select",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorRightSelect",
+        "title": "Right Select",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorUpLeftSelect",
+        "title": "Up Left Select",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorUpRightSelect",
+        "title": "Up Right Select",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorDownLeftSelect",
+        "title": "Down Left Select",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorDownRightSelect",
+        "title": "Down Right Select",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.cursorLineSelect",
+        "title": "Line Select",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.insertComma",
+        "title": "Insert Comma",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.insertSemicolon",
+        "title": "Insert Semicolon",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.insertCommaAndLineAfter",
+        "title": "Insert Comma And Line After",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.insertCommaAndLineBefore",
+        "title": "Insert Comma And Line Before",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.insertSemicolonAndLineAfter",
+        "title": "Insert Semicolon And Line After",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.insertSemicolonAndLineBefore",
+        "title": "Insert Semicolon And Line Before",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.deleteLineAndGoUpRight",
+        "title": "Delete Line And Go Up Right",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.deleteLineAndGoDownRight",
+        "title": "Delete Line And Go Down Right",
+        "enablement": "false"
+      },
+      {
+        "command": "iap.deleteLineText",
+        "title": "Delete Line Text",
+        "enablement": "false"
+      }
+    ],
+    "configuration": {
+      "title": "IAP",
+      "properties": {
+        "iap.prevMove": {
+          "type": "string",
+          "enum": [
+            "Left",
+            "Right",
+            "UpLeft",
+            "UpRight",
+            "DownLeft",
+            "DownRight",
+            "Left-Select",
+            "Right-Select",
+            "UpLeft-Select",
+            "UpRight-Select",
+            "DownLeft-Select",
+            "DownRight-Select"
+          ],
+          "default": "Right",
+          "markdownDescription": "Store previous move for future use with the `iap.cursorPrevMove` command • Automatically updated"
+        },
+        "iap.useSelectCommandsAsPrevMove": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "snippets": [
+      {
+        "language": "jsonc",
+        "path": "./snippets/shortcuts.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint": "^8.41.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.3",
+    "@vscode/test-electron": "^2.3.2"
+  }
+}
